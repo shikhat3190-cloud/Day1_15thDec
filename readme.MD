@@ -19,12 +19,13 @@ Alternatively, you can [download the ZIP file](https://github.com/sh90/Day1_15th
 
 ---
 
-### 💻 Step 2: Download PyCharm IDE
+### 💻 Step 2: Download PyCharm IDE and Ollama.
 
 You can install **PyCharm** (Community or Professional edition) from the official JetBrains website:
 
 👉 [Download PyCharm](https://www.jetbrains.com/pycharm/download/?section=windows)
 
+👉 [Download Ollama] (https://ollama.com/download)
 ---
 
 ### 📂 Step 3: Open the Project in PyCharm
@@ -71,6 +72,7 @@ Add your keys or credentials inside the `.env` file as required.
 ```bash
 python app_cli.py
 ```
+
 
 ---
 
