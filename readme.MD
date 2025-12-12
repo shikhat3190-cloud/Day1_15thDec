@@ -25,7 +25,8 @@ You can install **PyCharm** (Community or Professional edition) from the officia
 
 👉 [Download PyCharm](https://www.jetbrains.com/pycharm/download/?section=windows)
 
-👉 [Download Ollama] (https://ollama.com/download)
+👉 [Download Ollama](https://ollama.com/download)
+
 ---
 
 ### 📂 Step 3: Open the Project in PyCharm
