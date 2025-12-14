@@ -29,65 +29,18 @@ You can install **PyCharm** (Community or Professional edition) from the officia
 
 ---
 
-### 📂 Step 3: Open the Project in PyCharm
+### How to use Pycharm
+1. Open pycharm and create new project
+ <img width="248" height="310" alt="image" src="https://github.com/user-attachments/assets/bddc76a3-f0b5-4c47-b74d-2a6be0dff2c9" />
 
-**File → Open → Select the cloned or downloaded folder**
-
----
-
-### 🧩 Step 4: Create and Activate Virtual Environment
-
-Run the following command in your project directory:
-
-```bash
-uv venv
-source .venv/bin/activate    # for macOS/Linux
-# OR
-.venv\Scripts\activate       # for Windows
-```
-
----
-
-### 📦 Step 5: Install Dependencies
-
-```bash
-uv sync
-```
-
----
-
-### 🔐 Step 6: Create the `.env` File
-
-Copy the example environment file to a new `.env` file:
-
-```bash
-cp .env.example .env
-```
-
-Add your keys or credentials inside the `.env` file as required.
-
----
-
-### 🚀 Step 7: Run the Application
-
-```bash
-python app_cli.py
-```
+2. Create Virtual env with python3.12
+<img width="637" height="320" alt="image" src="https://github.com/user-attachments/assets/a338e946-785d-4caa-9d2e-6beb5a93a6b9" />
 
 
----
 
-## ✅ Notes
-
-- Ensure you have **Python ≥ 3.12** installed (as specified in `pyproject.toml`).
-- The `uv` package manager should be installed globally:
-
-- If `uv` is not recognized, check its path using:
-
-  ```bash
-  which uv      # macOS/Linux
-  where uv      # Windows
-  ```
-
-
+### Setup
+1. Open Pycharm and create virtual environment using python3.12
+2. `pip install -r requirements.txt`
+3. [Get OpenAI API key](https://platform.openai.com/)
+4. `set OPENAI_API_KEY="sk-..."`  in your .env
 
